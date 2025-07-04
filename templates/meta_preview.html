@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+
+  <!-- Metadados sociais para preview -->
+  <meta property="og:title" content="Comunique Clipping - {{ filename }}" />
+  <meta property="og:description" content="Clique para assistir ao vídeo citado." />
+  <meta property="og:type" content="video.other" />
+  <meta property="og:url" content="{{ url }}" />
+  <meta property="og:image" content="{{ image_url }}" />
+  <meta property="og:video" content="{{ url }}" />
+  <meta property="og:video:type" content="video/mp4" />
+
+  <meta http-equiv="refresh" content="0; URL='{{ url }}'" />
+  <title>{{ filename }}</title>
+</head>
+<body>
+  <p>Redirecionando para <a href="{{ url }}">{{ filename }}</a>...</p>
+</body>
+</html>
